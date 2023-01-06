@@ -2,8 +2,9 @@
     margin: 0;
     font-family: 'Work Sans';
 }
+
 /* header style */
-header{
+header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
 
@@ -30,6 +31,7 @@ header{
     color: #444343;
     margin-bottom: 20px;
 }
+
 /* button style */
 .btn-primary {
     font-weight: 600;
@@ -40,4 +42,42 @@ header{
     border: 0px;
     padding: 10px 20px;
     margin-bottom: 166px;
+}
+
+/* about styles */
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px 130px;
+    margin-top: 150px;
+
+}
+
+.about-description {
+    padding-left: 40px;
+
+
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.about-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+/* checkbox style */
+.input-checkbox {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
 }
