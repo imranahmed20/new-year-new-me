@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    font-family: 'Work Sans';
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Work Sans'; */
 }
 
 /* header style */
@@ -51,11 +52,13 @@ header {
     align-items: center;
     padding: 20px 130px;
     margin-top: 150px;
+    margin-bottom: 150px;
 
 }
 
 .about-description {
     padding-left: 40px;
+    padding-top: 50px;
 
 
 }
@@ -79,5 +82,43 @@ header {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+
+}
+
+/* plan style */
+.plan {
+    padding: 20px 130px;
+    margin-bottom: 120px;
+
+}
+.plans{
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+}
+
+.plan-head {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.plant-detail {
+    text-align: center;
+
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 30px;
+    color: #151414;
+
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 25px;
+    color: #737272;
 
 }
