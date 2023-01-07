@@ -1,19 +1,23 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Work Sans'; */
 }
 
 /* header style */
+
 header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    text-align: right;
+    align-items: flex-end;
+
 
 }
 
 /* banner style */
+
 .banner {
-    text-align: right;
+   
     padding-left: 700px;
     padding-right: 80px;
     padding-top: 216px;
@@ -34,6 +38,7 @@ header {
 }
 
 /* button style */
+
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -49,6 +54,7 @@ header {
 
 .about {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 130px;
     margin-top: 150px;
@@ -57,7 +63,7 @@ header {
 }
 
 .about-description {
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 50px;
 
 
@@ -78,6 +84,7 @@ header {
 }
 
 /* checkbox style */
+
 .input-checkbox {
     font-size: 16px;
     line-height: 26px;
@@ -86,6 +93,7 @@ header {
 }
 
 /* plan style */
+
 .plan {
     padding: 20px 130px;
     margin-bottom: 120px;
@@ -94,8 +102,9 @@ header {
 
 .plans {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 80px;
-    gap: 40px;
+    /* gap: 40px; */
     
 }
 
@@ -126,6 +135,7 @@ header {
 }
 
 /* positive style */
+
 .positive {
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
@@ -133,6 +143,7 @@ header {
     margin-bottom: 130px;
     margin-left: 80px;
     margin-right: 80px;
+    width: auto;
     border-radius: 10px;
 
 }
@@ -148,6 +159,7 @@ header {
 }
 
 /* button white style */
+
 .btn-white {
     font-weight: 600;
     font-size: 15px;
@@ -161,6 +173,7 @@ header {
 }
 
 /* extra style */
+
 .extra{
     margin-bottom: 80px;
     padding: 30px 80px;
@@ -175,6 +188,7 @@ header {
 
 }
 /* footer style */
+
 .footer {
     display: flex;
     justify-content: start;
@@ -227,6 +241,7 @@ header {
 }
 
 /* subscribe style */
+
 .subscribe {
     margin-left: 40px;
 
