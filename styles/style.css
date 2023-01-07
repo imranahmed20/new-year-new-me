@@ -8,6 +8,7 @@
 header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: right;
     align-items: flex-end;
 
@@ -63,8 +64,9 @@ header {
 }
 
 .about-description {
-    padding-left: 60px;
+    padding-left: 80px;
     padding-top: 50px;
+    width: 50%;
 
 
 }
@@ -94,17 +96,20 @@ header {
 
 /* plan style */
 
-.plan {
+.plans {
     padding: 20px 130px;
     margin-bottom: 120px;
 
 }
-
-.plans {
+.my-plan{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.plan {
+    display: flex;
     margin-top: 80px;
-    /* gap: 40px; */
+    gap: 40px;
     
 }
 
@@ -139,6 +144,7 @@ header {
 .positive {
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 80px;
     margin-bottom: 130px;
     margin-left: 80px;
