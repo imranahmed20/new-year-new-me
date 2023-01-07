@@ -96,6 +96,7 @@ header {
     display: flex;
     margin-top: 80px;
     gap: 40px;
+    
 }
 
 .plan-head {
@@ -112,7 +113,7 @@ header {
 
 .plan-title {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     color: #151414;
 
 }
@@ -159,6 +160,20 @@ header {
 
 }
 
+/* extra style */
+.extra{
+    margin-bottom: 80px;
+    padding: 30px 80px;
+    padding-left: 80px;
+    margin-top: 80px;
+
+}
+
+.extra-detail{
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
 /* footer style */
 .footer {
     display: flex;
@@ -230,8 +245,9 @@ header {
     font-size: 15px;
     background: #151414;
     color: #F3F3F3;
-    padding: 10px 22px;
+    padding: 10px 30px;
     border: 1px solid #F3F3F3;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
